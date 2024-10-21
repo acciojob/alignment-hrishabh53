@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+  table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 1px;
+            text-align: center;
+        }
+        .middle {
+            margin: 0 auto;
+            width: fit-content;
+        }
+        /* Specific classes */
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: right;
+        }
+        /* Background color styling */
+        .green {
+            background-color: green;
+        }
+        .blue {
+            background-color: blue;
+        }
